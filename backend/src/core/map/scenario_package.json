@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "default_scenario",
+  "package_version": "20260416T120731Z",
+  "created_at": "2026-04-16T12:07:31.188869+00:00",
+  "content_revision": "",
+  "world": {
+    "tile_size": 32,
+    "width": 38,
+    "height": 38,
+    "pixel_width": 1209.3333333333333,
+    "pixel_height": 1209.3333333333333,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "navigation_in_transformed_space": true,
+    "coordinate_transform": {
+      "origin_px": [
+        645.2921128608924,
+        427.2750787401575
+      ],
+      "x_axis_unit": [
+        0.9035044855008055,
+        0.4285786330184049
+      ],
+      "y_axis_unit": [
+        -0.9132282091858003,
+        0.40744844820823206
+      ],
+      "z_axis_unit": [
+        0.004227338962267449,
+        -0.9999910647627297
+      ],
+      "inv_basis": [
+        [
+          0.5364540642835639,
+          1.2023729298528354
+        ],
+        [
+          -0.5642744513051067,
+          1.1895704977568862
+        ]
+      ],
+      "offset": [
+        -859.9135648722581,
+        -826.5478782915911
+      ]
+    }
+  },
+  "assets": {
+    "base_url": "/"
+  },
+  "navigation": {
+    "provider": "frontend",
+    "collision_grid_rle": "0:204;1:9;0:28;1:12;0:24;1:16;0:21;1:18;0:19;1:19;0:18;1:21;0:16;1:23;0:14;1:25;0:12;1:8;0:2;1:3;0:2;1:12;0:11;1:8;0:2;1:17;0:11;1:8;0:2;1:17;0:11;1:8;0:6;1:19;0:5;1:8;0:7;1:3;0:1;1:14;0:5;1:5;0:2;1:1;0:8;1:1;0:4;1:12;0:5;1:4;0:20;1:9;0:5;1:4;0:22;1:1;0:2;1:4;0:5;1:2;0:36;1:2;0:601",
+    "collision_mask": {
+      "image": "map_slices/collision_mask.png",
+      "x": 173.66666666666666,
+      "y": 168.59999999999997,
+      "width": 1018.9999999999999,
+      "height": 542.2
+    }
+  },
+  "rooms": [
+    {
+      "id": "room_room_001",
+      "name": "休闲区",
+      "image": "map_slices/map_room_001_休闲区.png",
+      "x": 608.8666666666667,
+      "y": 546.2,
+      "width": 596.7999999999998,
+      "height": 352.26666666666665,
+      "anchor_x": 983.4862927542436,
+      "anchor_y": 744.9720530420261,
+      "tags": []
+    },
+    {
+      "id": "room_room_002",
+      "name": "会客区",
+      "image": "map_slices/map_room_002_会客区.png",
+      "x": 204.73557328136786,
+      "y": 615.6071237049869,
+      "width": 327.47225952867694,
+      "height": 157.65997046398513,
+      "anchor_x": 381.75376682748447,
+      "anchor_y": 703.5786359592782,
+      "tags": []
+    },
+    {
+      "id": "room_room_003",
+      "name": "会议室",
+      "image": "map_slices/map_room_003_会议室.png",
+      "x": 486.1333333333333,
+      "y": 505.9160104986877,
+      "width": 141.81952755905513,
+      "height": 87.88398950131239,
+      "anchor_x": 539.53359643725,
+      "anchor_y": 551.8032541905167,
+      "tags": []
+    },
+    {
+      "id": "room_room_004",
+      "name": "吊椅",
+      "image": "map_slices/map_room_004_吊椅.png",
+      "x": 402.6666666666667,
+      "y": 406.3333333333333,
+      "width": 87.06666666666666,
+      "height": 219.06666666666666,
+      "anchor_x": 453.09607645349894,
+      "anchor_y": 522.2856504483535,
+      "tags": []
+    },
+    {
+      "id": "room_room_005",
+      "name": "坐垫",
+      "image": "map_slices/map_room_005_坐垫.png",
+      "x": 275.3333333333333,
+      "y": 686.4666666666667,
+      "width": 83.53333333333336,
+      "height": 41.0,
+      "anchor_x": 316.8795056216931,
+      "anchor_y": 706.9666666666667,
+      "tags": []
+    },
+    {
+      "id": "room_room_006",
+      "name": "开放办公区",
+      "image": "map_slices/map_room_006_开放办公区.png",
+      "x": 124.36671916010505,
+      "y": 679.8876640419948,
+      "width": 962.9333333333332,
+      "height": 431.0790551181102,
+      "anchor_x": 599.7492969607538,
+      "anchor_y": 897.7133329832934,
+      "tags": []
+    },
+    {
+      "id": "room_room_007",
+      "name": "树底座",
+      "image": "map_slices/map_room_007_树底座.png",
+      "x": 585.4,
+      "y": 526.6,
+      "width": 218.39999999999998,
+      "height": 143.19999999999993,
+      "anchor_x": 695.3988603400398,
+      "anchor_y": 610.0229584574347,
+      "tags": []
+    },
+    {
+      "id": "room_room_008",
+      "name": "树底活动区",
+      "image": "map_slices/map_room_008_树底活动区.png",
+      "x": 544.8666666666667,
+      "y": 530.987716535433,
+      "width": 284.4666666666666,
+      "height": 166.61228346456687,
+      "anchor_x": 670.9752975715551,
+      "anchor_y": 642.5410505679946,
+      "tags": []
+    },
+    {
+      "id": "room_room_009",
+      "name": "水池",
+      "image": "map_slices/map_room_009_水池.png",
+      "x": 764.6,
+      "y": 669.8,
+      "width": 210.19999999999993,
+      "height": 100.33333333333337,
+      "anchor_x": 868.8193033894694,
+      "anchor_y": 717.122531881034,
+      "tags": []
+    },
+    {
+      "id": "room_room_010",
+      "name": "沙发和熊",
+      "image": "map_slices/map_room_010_沙发和熊.png",
+      "x": 945.3046900684255,
+      "y": 658.1093042972035,
+      "width": 248.08993043475698,
+      "height": 156.66696609137307,
+      "anchor_x": 1084.0478117328962,
+      "anchor_y": 743.1045944747949,
+      "tags": []
+    },
+    {
+      "id": "room_room_011",
+      "name": "活动区",
+      "image": "map_slices/map_room_011_活动区.png",
+      "x": 0.0,
+      "y": 580.6666666666666,
+      "width": 608.8666666666667,
+      "height": 317.80000000000007,
+      "anchor_x": 227.50684278995968,
+      "anchor_y": 759.6947026386781,
+      "tags": []
+    },
+    {
+      "id": "room_room_012",
+      "name": "灯",
+      "image": "map_slices/map_room_012_灯.png",
+      "x": 577.2666666666667,
+      "y": 391.8,
+      "width": 64.79999999999995,
+      "height": 66.26666666666665,
+      "anchor_x": 613.6332535044863,
+      "anchor_y": 428.63787496721454,
+      "tags": []
+    },
+    {
+      "id": "room_room_013",
+      "name": "熊",
+      "image": "map_slices/map_room_013_熊.png",
+      "x": 43.6,
+      "y": 625.4,
+      "width": 121.73333333333335,
+      "height": 163.06666666666672,
+      "anchor_x": 97.96531541112974,
+      "anchor_y": 712.2401998560163,
+      "tags": []
+    },
+    {
+      "id": "room_room_014",
+      "name": "豆袋沙发",
+      "image": "map_slices/map_room_014_豆袋沙发.png",
+      "x": 275.3333333333333,
+      "y": 584.2,
+      "width": 141.46666666666664,
+      "height": 85.60000000000002,
+      "anchor_x": 349.4262020388237,
+      "anchor_y": 630.1793163371877,
+      "tags": []
+    },
+    {
+      "id": "room_unassigned",
+      "name": "Unassigned",
+      "image": "",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0,
+      "anchor_x": 0.0,
+      "anchor_y": 0.0,
+      "tags": [
+        "virtual"
+      ]
+    }
+  ],
+  "item_types": [
+    {
+      "type_id": "type_type_001",
+      "display_name": "背景",
+      "capabilities": [
+        "decorative"
+      ],
+      "default_states": [
+        "idle"
+      ],
+      "state_machine": {
+        "initial": "idle",
+        "states": {
+          "idle": {
+            "animation": "default_idle",
+            "transitions": []
+          }
+        }
+      }
+    }
+  ],
+  "items": [
+    {
+      "item_id": "item_item_001",
+      "name": "背景",
+      "type_id": "type_type_001",
+      "room_id": "room_room_007",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1209.3333333333333,
+      "height": 1209.3333333333333,
+      "center_x": 604.6666666666666,
+      "center_y": 604.6666666666666,
+      "layer": -1,
+      "draw_order": 1,
+      "image": "",
+      "runtime_overrides": {}
+    }
+  ],
+  "animations": {
+    "plant_idle": {
+      "sheet": "anim/plant_idle.png",
+      "fps": 6,
+      "frames": 6,
+      "loop": true
+    },
+    "door_closed": {
+      "sheet": "anim/door_closed.png",
+      "fps": 1,
+      "frames": 1,
+      "loop": false
+    },
+    "door_open": {
+      "sheet": "anim/door_open.png",
+      "fps": 1,
+      "frames": 1,
+      "loop": false
+    },
+    "default_idle": {
+      "sheet": "",
+      "fps": 1,
+      "frames": 1,
+      "loop": true
+    }
+  },
+  "render_layers": [
+    {
+      "name": "背景",
+      "group": "-1",
+      "layer": -1,
+      "draw_order": 1,
+      "image": "map_slices/map_layer_001_-1.png",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1209.3333333333333,
+      "height": 1209.3333333333333
+    }
+  ],
+  "rules_bindings": {
+    "capability_to_backend_rule": {
+      "pickupable": "rule_pickup_item",
+      "consumable": "rule_consume_item",
+      "seat": "rule_use_seat",
+      "door": "rule_door_interact",
+      "decorative": "rule_noop",
+      "inert": "rule_noop"
+    }
+  },
+  "compat": {
+    "min_simulator_version": "1.0.0",
+    "breaking_changes": []
+  }
+}

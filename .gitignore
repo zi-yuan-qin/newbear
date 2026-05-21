@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+newbear.db
+_doc1.txt
+_doc2.txt
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

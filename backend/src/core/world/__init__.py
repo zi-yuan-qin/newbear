@@ -1,0 +1,1 @@
+"""World assembly package."""

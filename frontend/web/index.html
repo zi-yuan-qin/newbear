@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>newbear</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section id="auth-page" class="auth-page">
+    <div class="auth-card">
+      <img class="auth-logo" src="/assets/logo.png" alt="熊起东方">
+      <div class="auth-copy">
+        <p class="auth-kicker">熊起东方</p>
+        <h1>欢迎入职</h1>
+        <p>请先创建一个测试身份。你的发言、会议参与和最终信件报告，之后会用于复盘这次模拟体验。</p>
+      </div>
+
+      <form id="auth-form" class="auth-form">
+        <div class="auth-mode-row" role="tablist" aria-label="登录或注册">
+          <button id="auth-login-tab" class="auth-mode-button is-active" type="button">登录</button>
+          <button id="auth-register-tab" class="auth-mode-button" type="button">注册</button>
+        </div>
+        <label>
+          <span>玩家名</span>
+          <input id="auth-username" type="text" autocomplete="username" placeholder="例如：test01" required>
+        </label>
+        <label>
+          <span>密码</span>
+          <input id="auth-password" type="password" autocomplete="current-password" placeholder="测试阶段可先随意填写" required>
+        </label>
+        <p id="auth-error" class="auth-error" aria-live="polite"></p>
+        <button id="auth-submit" class="auth-submit" type="submit">进入公司</button>
+      </form>
+    </div>
+  </section>
+
+  <main class="app" hidden>
+    <section class="topbar">
+      <div class="brand-area">
+        <h1 id="company-name">newbear</h1>
+        <p id="company-meta">加载中...</p>
+      </div>
+      <section id="meeting-top-summary" class="meeting-top-summary" hidden></section>
+      <div class="button-row">
+        <button id="logout-button" class="secondary-button" type="button">退出</button>
+        <button id="music-button" class="secondary-button" type="button">音乐：开</button>
+        <button id="step-button">推进 30 分钟</button>
+        <button id="auto-step-button" class="secondary-button">自动推进</button>
+        <button id="reset-button" class="secondary-button">重置世界</button>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <section class="map-panel">
+        <section id="incident-panel" class="incident-panel" hidden></section>
+
+        <div class="floor-map">
+          <img id="floor-map-image" src="/assets/map_slices/map_layer_001_-1.png" alt="公司地图">
+          <div id="floor-map-points" class="floor-map-points"></div>
+        </div>
+
+        <section class="input-row">
+          <input id="affair-input" type="text" placeholder="你作为产品经理想说的话">
+        </section>
+      </section>
+
+      <aside class="side-panel" aria-label="调试信息">
+        <section class="debug-section">
+          <header class="debug-section-header">
+            <h2>区域</h2>
+          </header>
+          <div id="map-view" class="map-view"></div>
+        </section>
+
+        <section class="debug-section">
+          <header class="debug-section-header">
+            <h2>角色</h2>
+          </header>
+          <div id="actor-list" class="actor-list"></div>
+        </section>
+
+        <section class="debug-section">
+          <header class="debug-section-header">
+            <h2>产品经理发言</h2>
+          </header>
+          <div id="input-history" class="input-history"></div>
+        </section>
+
+        <section class="debug-section">
+          <header class="debug-section-header">
+            <h2>时间步日志</h2>
+          </header>
+          <div id="log-view" class="log-view"></div>
+        </section>
+      </aside>
+    </section>
+
+    <section id="meeting-page" class="meeting-page" hidden></section>
+    <section id="onboarding-page" class="onboarding-page" hidden></section>
+    <section id="incident-overlay" class="incident-overlay" hidden></section>
+    <section id="report-section" class="report-overlay" hidden>
+      <div id="report-view" class="report-view"></div>
+    </section>
+  </main>
+
+  <audio id="bgm-audio" src="/assets/bgm.mp3" loop preload="auto"></audio>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
